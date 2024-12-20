@@ -1,0 +1,4 @@
+Fun_Drch=tf(0.059501967557249, [1,29.247647205276063])
+Fun_Izq=tf(0.055196645073388, [1,26.948507496407224])
+[C_Izq,infoIzq]=pidtune(Fun_Izq,'PI')
+C_TfIzq=tf(C_Izq)
